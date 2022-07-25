@@ -1,7 +1,5 @@
 <?php
 
-namespace App\Rules;
-
 interface CostCalculatorInterface
 {
     public function getCost(): float;
